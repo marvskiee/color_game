@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wheel",
-    "slug": "wheel",
+    "name": "Color Game",
+    "slug": "color",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "color.guess",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "87890f56-c03e-4ead-b0ea-eebfe70f727b"
+      }
     }
   }
 }
